@@ -1,0 +1,202 @@
+.btnDiv {
+  text-align: right;
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+}
+
+.btnClose {
+  position: absolute;
+  top: 6px;
+  right: 0px;
+  font-size: 1rem;
+  font-weight: 900;
+  border: none;
+  color: rgba(255, 255, 255, 0.37);
+  background-color: rgba(255, 98, 0, 0.189);
+  border-radius: 50%;
+  height: 1.58rem;
+  width: 1.6rem;
+  transition: 0.2s;
+}
+.btnClose:hover {
+  color: rgba(191, 191, 191, 0.807);
+  transform: scale(1.1);
+}
+
+.errorMsg {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.567);
+  margin: 3rem auto;
+  font-weight: 900;
+  letter-spacing: 2px;
+  word-spacing: 9px;
+}
+
+.cart-list {
+  list-style-type: none;
+  margin-top: 22px;
+  height: fit-content;
+  max-height: 25rem;
+  overflow-y: scroll;
+  overflow-x: visible;
+  border-radius: 14px;
+  padding: 0px 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 89, 0, 0.155);
+}
+
+.amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  padding: 0px 15px;
+}
+.amount p {
+  margin: 0%;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  word-spacing: 8px;
+  color: rgba(0, 0, 0, 0.419);
+  font-family: arial;
+  font: stretch 4px;
+}
+
+.amount span {
+  margin: 0%;
+  font-size: 1.3rem;
+  text-shadow: 0px 0px 29px rgba(255, 106, 0, 0.801);
+
+  font-family: "Josefin Sans", sans-serif;
+  background: linear-gradient(
+    to right,
+    #ee00ffc6 10%,
+    #ae00ffda 50%,
+    #ff0066d8 60%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: rgba(255, 255, 255, 0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.btnDivOrder {
+  display: flex;
+  justify-content: center;
+}
+
+.btnOrder {
+  font-size: 1rem;
+  font-weight: 900;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.37);
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 39px;
+  padding: 0.25rem 2rem;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.btnOrder:hover {
+  border: none;
+  height: 40px;
+}
+ 
+.sendingMsg {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.567);
+  margin: 3rem auto;
+  font-weight: 900;
+  letter-spacing: 2px;
+  word-spacing: 9px;
+}
+
+.sentMsg {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.567);
+  margin: 3rem auto;
+  font-weight: 900;
+  letter-spacing: 2px;
+  word-spacing: 9px;
+}
+
+@media (max-width: 600px) {
+
+  .btnClose {
+    font-size: 0.7rem;
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  .btnClose:hover {
+    transform: none;
+  }
+
+  .errorMsg {
+    margin: 3rem 1rem;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 0.7rem;
+  }
+
+  .cart-list {
+    margin-top: 22px;
+    height: fit-content;
+    max-height: 45vh;
+    overflow-y: scroll;
+    padding: 0px 0.5rem;
+  }
+
+  .amount {
+    margin-bottom: 0.5rem;
+    padding: 0px;
+  }
+  .amount p {
+    margin: 0%;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    font: stretch 4px;
+  }
+
+  .amount span {
+    margin: 0%;
+    font-size: 1.1rem;
+  }
+
+  .btnOrder {
+    font-size: 0.9rem;
+    border-radius: 39px;
+    padding: 0.1rem 1.2rem;
+    height: 2rem;
+  }
+
+  .btnOrder:hover {
+    border: none;
+    height: 2rem;
+  }
+
+  .sendingMsg {
+    margin: 3rem 1rem;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 0.7rem;
+  }
+
+  .sentMsg {
+    margin: 3rem 1rem;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-size: 0.7rem;
+  }
+}

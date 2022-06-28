@@ -1,0 +1,36 @@
+.input {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 0.5rem;
+}
+
+.input input {
+  width: 4rem;
+
+  font-weight: 900;
+  font: inherit;
+  border: 5px solid rgba(255, 255, 255, 0.1);
+  height: 2rem;
+  color: rgba(0, 0, 0, 0.792);
+  text-align: left;
+  padding: 0.25rem 0rem 0.25rem 1.4rem;
+  box-shadow: 0 0 40px rgba(255, 200, 0, 0.248);
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 39px;
+}
+
+@media (max-width: 600px) {
+  .input {
+    margin-bottom: 0.3rem;
+  }
+
+  .input input {
+    display: flex;
+    justify-content: center;
+    width: 2.5rem;
+    height: 1.3rem;
+    font-size: 0.6rem;
+    padding: 0.2rem 0.7rem;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+  }
+}
