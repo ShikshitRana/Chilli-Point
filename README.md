@@ -12,3 +12,9 @@ Tools used in the webapp ->
 5. CSS Modules
 6. Firebase Auth REST API
 7. Hoisted using Firebase
+
+Some Screenshots of website ->
+
+![login](https://user-images.githubusercontent.com/100830807/176241703-020abd44-f986-434f-a7d2-9bab9da73d62.png)
+![menu](https://user-images.githubusercontent.com/100830807/176241727-cd115901-b7aa-4fae-9d38-97803beb9e10.png)
+![order](https://user-images.githubusercontent.com/100830807/176241735-b94333d5-3483-4ee8-8323-ee35ba4a31b2.png)
