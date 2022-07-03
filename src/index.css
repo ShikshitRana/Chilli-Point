@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  background-color: rgb(53, 48, 48);
+  background-image: url("https://acegif.com/wp-content/gifs/fire-13.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
